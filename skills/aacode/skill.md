@@ -75,3 +75,7 @@ metadata:
 
 - Format: `<type>: <description>` with optional body
 - Types: `feat`, `fix`, `refactor`, `test`, `docs`, `chore`
+
+## npm Package Publishing
+
+- Use npx npm-name-cli to check for name availability before `npm publish` (also check common - variations like tdot is not taken but can't publish coz of t-do-t or t-dot)

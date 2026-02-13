@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clack CLI"
+  short_description: "Build robust CLIs with clack core and prompts"
+  default_prompt: "Use $clack to implement a production-quality CLI flow with @clack/core or @clack/prompts using the bundled source and example references."

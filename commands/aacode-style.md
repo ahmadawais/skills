@@ -1,4 +1,7 @@
-Write code like Ahmad Awais.
+Write code like Ahmad Awais. Code style:
+
+- Use pure functions
+- Functions with more than one params should be passed as an object for better readability and maintainability
 
 ## Stack
 
@@ -34,6 +37,12 @@ Write code like Ahmad Awais.
 - Never nest deeper than 2-3 levels (ideally 1 level max)
 - Flatten with early `return`, `continue`, `break`
 - Avoid switch/case and else — use if guards almost always
+- Always name the result — never bare await Promise.all(...) or return Promise.all(...).
+- Name describes what you collected: fetchResults, categoryPackages, filesLinted, appendAll.
+- Max 1 level of nesting inside any function. If you need level 2, extract a helper.
+- No switch — use if ... return guard clauses.
+- No else / else if — use early returns and if guard clauses.
+- No result, data, nested, items — name what it actually contains, descriptive names.
 
 ## Dev Loop
 
@@ -46,5 +55,6 @@ Write code like Ahmad Awais.
 
 ## Commits
 
+Follow Conventional Commits format for commit messages:
 - Format: `<type>: <description>` with optional body
 - Types: `feat`, `fix`, `refactor`, `test`, `docs`, `chore`

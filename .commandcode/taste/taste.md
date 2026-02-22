@@ -20,3 +20,4 @@ See [cli/taste.md](cli/taste.md)
 
 # design
 - For cover images: use pure black background (#000000), no borders or card borders, text-forward design. Confidence: 0.80
+- Use the Shades of Purple palette for text/design colors: Background #2D2B55, Background Dark #1E1E3F, Foreground #A599E9, Hover #4D21FC, Contrast #FAD000, Highlight #FF7200, Comment #B362FF, Constants #FF628C, Keywords #FF9D00, Other #9EFFFF, Strings #A5FF90, Definitions #FB94FF. Confidence: 0.75

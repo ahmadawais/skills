@@ -41,6 +41,8 @@ metadata:
 - Never nest deeper than 2-3 levels (ideally 1 level max)
 - Flatten with early `return`, `continue`, `break`
 - Avoid switch/case and else — use if guards almost always
+- - Never use single-letter or non-descriptive variable names (e.g., i, j, k, n) in loops or nested structures; in all iterators and otherwise too. always use descriptive names that convey the meaning of the value.
+
 
 ## CLI Development
 
